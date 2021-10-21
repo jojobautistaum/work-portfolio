@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    /*z-index: 9999;*/
+    color: #91CBCD;
+    background-color: black;
+    background-position: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    background-attachment: fixed;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 3.5vw;
+    background-color: #91CBCD;
+    /*align-items: center;*/
+    padding: 15px 50px;
+    border-radius: 15px;
+    
+}
+
+header h1 a {
+    border: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 15px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 15px 15px;
+    font-size: 1.9vw;
+    color: #91CBCD;
+}
+  
+header nav ul li a:hover {
+    background: #91CBCD;
+    color: black;
+    font-size: 2vw;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+.hero h2 {
+    margin: 250px 30px 5px;
+    color: black;
+    background-color: #91CBCD;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+
+.main-section {
+    display: flex;
+    text-align: right;
+}
+
+.test {
+    border-right: 5px solid black;
+}
+
+.main-section h2{
+    font-size: 4vw;
+    width: 15vw;
+    height: 80%;
+    margin: 10% 0;
+    position;
+    border-right: 5px solid black;
+}
+
+.main__about-me {
+    width: 100%;
+    
+}
+

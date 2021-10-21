@@ -84,11 +84,6 @@ header nav ul li a:hover {
 
 .main-section {
     display: flex;
-    text-align: right;
-}
-
-.test {
-    border-right: 5px solid black;
 }
 
 .main-section h2{
@@ -96,12 +91,42 @@ header nav ul li a:hover {
     width: 15vw;
     height: 80%;
     margin: 10% 0;
-    position;
+    text-align: right;
     border-right: 5px solid black;
 }
 
-.main__about-me {
-    width: 100%;
-    
+.main-section p {
+    margin: 50px 20px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.works {
+    height: 120vh;
+    width: 100vw;
+    margin: 5%;
+}
+
+
+.main-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main-project {
+   align-self: center;
+}
+
+
+.main-project img {
+   height: 25%;
+   weight: 25%;
+}
+
+
 

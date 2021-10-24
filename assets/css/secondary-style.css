@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/background-pattern.jpg);
+    background-size: fill;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 50vw;
+    max-height: 100%;
+    height: 50vw;
+    margin: auto;
+}

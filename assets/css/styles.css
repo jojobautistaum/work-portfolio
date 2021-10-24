@@ -4,8 +4,15 @@
     padding: 0;
   }
 
+  /* ensure that about-me and work top info will not go under the header when selected */
+  #aboutme-nav, #work-nav{
+    position: relative;
+    top: -125px;
+}
+
+/* header section START */
 header {
-    /*z-index: 9999;*/
+    z-index: 9999;
     color: #91CBCD;
     background-color: black;
     background-position: center;
@@ -24,10 +31,8 @@ header h1 {
     margin: 0;
     font-size: 3.5vw;
     background-color: #91CBCD;
-    /*align-items: center;*/
     padding: 15px 50px;
     border-radius: 15px;
-    
 }
 
 header h1 a {
@@ -61,7 +66,9 @@ header nav ul li a:hover {
     font-weight: bolder;
     border-radius: 15px;
 }
+/* header section END */
 
+/* hero section START */
 .hero {
     background-image: url('../images/hero-bg.jpg');
     background-size: cover;
@@ -74,6 +81,15 @@ header nav ul li a:hover {
     background-position: 100%;
 }
 
+.hero img {
+    margin: 1% 1%;
+    width: 15%;
+    border-radius: 100px;
+    border: 3px solid #91CBCD;
+    position: relative;
+    left: 0;
+}
+
 .hero h2 {
     margin: 250px 30px 5px;
     color: black;
@@ -81,52 +97,84 @@ header nav ul li a:hover {
     padding: 20px 15px;
     border-radius: 15px;
 }
+/* hero section END */
 
+main {
+    background-image: url('../images/background-pattern.jpg');
+}
+
+/* main section START */
 .main-section {
     display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
 }
 
 .main-section h2{
+    color: #2A607C;
     font-size: 4vw;
     width: 15vw;
-    height: 80%;
-    margin: 10% 0;
+    min-height: 100px;
+    overflow: hidden;
     text-align: right;
-    border-right: 5px solid black;
+}
+
+.main-content {
+    min-height: 100px;
+    overflow: hidden;
+    margin: 1% 0;
+    border-left: 5px solid black;
 }
 
 .main-section p {
-    margin: 50px 20px;
+    margin: 10px 20px;
     text-align: left;
     align-items: center;
     justify-content: center;
 }
 
-
-.works {
-    height: 120vh;
-    width: 100vw;
-    margin: 5%;
-}
-
-
 .main-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
+    padding: 0 2%;
 }
-
 
 .main-project {
-   align-self: center;
+   width: 20vw;
+   justify-content: center;
+   text-align: center;
+   margin: 3vh 0;
 }
 
-
-.main-project img {
-   height: 25%;
-   weight: 25%;
+.main-project h3 {
+    font-size: 2vw;
+    color: #2A607C;
+    font-weight: bold;
 }
 
+.main-project img, .project-highlight img {
+   height: 100%;
+   width: 100%;
+   padding: 0 3%;
+}
 
+.project-highlight img:hover {
+    opacity: 0.5;
+}
+
+.main-project img:hover {
+    height: 120%;
+    width: 120%;
+}
+
+.main-projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0;
+    border-left: 5px solid black;
+}
+/* main section END */
 

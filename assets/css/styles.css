@@ -118,6 +118,7 @@ main {
     min-height: 100px;
     overflow: hidden;
     text-align: right;
+    padding-right: 3%;
 }
 
 .main-content {

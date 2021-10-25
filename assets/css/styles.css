@@ -28,7 +28,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    margin: 0;
+    margin-left: ;
     font-size: 3.5vw;
     background-color: #91CBCD;
     padding: 15px 50px;
@@ -151,9 +151,10 @@ main {
 }
 
 .main-project h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #2A607C;
     font-weight: bold;
+    background-color: #91CBCD;
 }
 
 .main-project img, .project-highlight img {
@@ -166,9 +167,11 @@ main {
     opacity: 0.5;
 }
 
-.main-project img:hover {
+.main-project img:hover + .main-project h3{
+    text-align: center;
     height: 120%;
     width: 120%;
+    font-size: 1.7vw;
 }
 
 .main-projects-wrapper {

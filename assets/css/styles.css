@@ -182,3 +182,44 @@ main {
 }
 /* main section END */
 
+/* smaller screen and mobile */
+@media screen and (max-width: 575px) {
+    header {
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header nav ul li a{
+        font-size: 0.6em;
+    }
+
+    .hero img {
+        width: 25%;
+    }
+
+    .hero h2 {
+        font-size: 1em;
+    }
+
+    .main-section {
+        flex-direction: column;
+        border-top: 4px solid black;
+    }
+
+    .main-section h2{
+        min-height: initial;
+        width: initial;
+        font-size: 2em;
+        text-align: center;
+        padding: 3%;
+    }
+
+    .main-content, .main-projects-wrapper{
+        border-left: none;
+    }   
+}

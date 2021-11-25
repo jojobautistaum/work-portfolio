@@ -150,27 +150,41 @@ main {
    margin: 3vh 0;
 }
 
-.main-project h3 {
-    font-size: 1.5vw;
+.main-project h3{
+    font-size: 1.5em;
     color: #2A607C;
     font-weight: bold;
     background-color: #91CBCD;
+    width: 90%;
+    margin: 5%;
 }
 
-.main-project img, .project-highlight img {
+.main-project h6 {
+    font-size: 0.7em;
+}
+
+.project-highlight img  {
+    height: 100%;
+    width: 100%;
+    margin: 0 3%;
+    padding-right: 5%;
+}
+
+.main-project img {
+   max-height: 40vh;
    height: 100%;
-   width: 100%;
-   padding: 0 3%;
+   width: 90%;
+   margin: 3%;
 }
 
 .project-highlight img:hover {
     opacity: 0.5;
 }
 
-.main-project img:hover + .main-project h3{
+.main-project img:hover{
     text-align: center;
-    height: 120%;
-    width: 120%;
+    height: 105%;
+    width: 102%;
     font-size: 1.7vw;
 }
 
@@ -183,7 +197,7 @@ main {
 /* main section END */
 
 /* smaller screen and mobile */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 600px) {
     header {
         align-items: center;
         flex-direction: column;
@@ -222,4 +236,21 @@ main {
     .main-content, .main-projects-wrapper{
         border-left: none;
     }   
+
+    .main-project h3 {
+        font-size: 5vw;
+        margin: 0 0 0 5%;
+    }
+
+    .main-project img {
+        padding:0;
+        margin: 0;
+    }
+
+    .main-project {
+        /* display: initial; */
+        flex-direction: column;
+        min-width: 100%;
+
+    }
 }

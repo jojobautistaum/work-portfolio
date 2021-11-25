@@ -156,7 +156,7 @@ main {
     font-weight: bold;
     background-color: #91CBCD;
     width: 90%;
-    margin: 5%;
+    margin: 5% 5% 0 5%;
 }
 
 .main-project h6 {
@@ -181,12 +181,15 @@ main {
     opacity: 0.5;
 }
 
-.main-project img:hover{
-    text-align: center;
-    height: 105%;
-    width: 102%;
-    font-size: 1.7vw;
-}
+@media(hover: hover) and (pointer: fine) {
+    /* apply only if not touch */
+    .main-project img:hover{
+        text-align: center;
+        height: 105%;
+        width: 102%;
+        font-size: 1.7vw;
+    }
+}    
 
 .main-projects-wrapper {
     display: flex;

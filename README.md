@@ -28,5 +28,6 @@
   [Check my portfolio](https://jojobautistaum.github.io/work-portfolio/)
 
   ## Questions <a id="questions"></a>
-  For questions about my work experieces or a copy of my resume, please email me at gjojob@yahoo.com.
+  For questions about my work experiences or a copy of my resume, please reachout to me via email at gjojob@yahoo.com or to my linkedin account https://www.linkedin.com/in/jojo-bautista/
+
   

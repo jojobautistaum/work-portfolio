@@ -15,9 +15,9 @@
   ## Tech/Framework <a id="tech"></a>
   * HTML
   * CSS
-  * Flexbox
-  * Media Query
-
+  * Bootstrap
+  * FontAwesome
+  
   ## Screenshot <a id="screenshot"></a>
   ![Top page image](./assets/images/hero-readme.jpg)
 

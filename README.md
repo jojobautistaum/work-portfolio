@@ -3,7 +3,7 @@
   [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  My professional portfolio hightlights the projects I've done so far. You will also find an interesting summary about my work experience.
+  My professional portfolio hightlights the projects I've done so far. You will also find an interesting summary about my work experiences.
 
   ## Table of Contents
   * [Tech/Framework](#tech) 

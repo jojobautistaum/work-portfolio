@@ -1,20 +1,32 @@
-# Work Portfolio
 
-## Description
-This is my initial personal webpage about me. I will update this later to use as my page for potential employers to showcase my accomplishments.
+  # Professional Portfolio
+  [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-## Tech/Framework
-* HTML
-* CSS
+  ## Description
+  My professional portfolio hightlights the projects I've done so far. You will also find an interesting summary about my work experience.
 
-## Project Requirements
-* Flexbox
-* Media Query
-* Responsive layout that adapts to viewport
+  ## Table of Contents
+  * [Tech/Framework](#tech) 
+  * [ScreenShot](#screenshot) 
+  * [License](#license)
+  * [Link](#link) 
+  * [Questions](#questions)
 
-## Screenshot
-![Top page image](./assets/images/hero-readme.jpg)
+  ## Tech/Framework <a id="tech"></a>
+  * HTML
+  * CSS
+  * Flexbox
+  * Media Query
 
-## Link
-[Let's go to my page](https://jojobautistaum.github.io/work-portfolio/)
+  ## Screenshot <a id="screenshot"></a>
+  ![Top page image](./assets/images/hero-readme.jpg)
 
+  ## License <a id="license"></a>
+  This project is licensed under the MIT license
+
+  ## Link <a id="link"></a>
+  [Check my portfolio](https://jojobautistaum.github.io/work-portfolio/)
+
+  ## Questions <a id="questions"></a>
+  For questions about my work experieces or a copy of my resume, please email me at gjojob@yahoo.com.
+  
